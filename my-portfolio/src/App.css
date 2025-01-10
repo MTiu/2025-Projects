@@ -1,0 +1,113 @@
+/* Debug Styles */
+
+*{
+  /* border: 1px solid red; */
+}
+
+/* Main Styles */
+
+:root{
+  --main-text-color: cyan
+}
+
+body{
+  min-height: 100vh;
+  background-size: 100% 100%;
+  background-position: top center;
+  background-image: linear-gradient(1deg, #101010FF 50%, #2E2E2EFF 100%);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  transition: 0.2s ease-in-out;
+}
+
+a:active,
+a:focus,
+a:hover,
+.active {
+  color: var(--main-text-color);
+}
+
+/* Default Custom Styles */
+
+
+.framed{
+  position: relative;
+}
+
+.framed::before, .framed::after{
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--main-text-color);
+  transition: 0.2s ease-in-out;
+}
+
+.framed::before{
+  top: 0;
+  left: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.framed::after{
+  bottom: 0;
+  right: 0;
+  border-left: 0;
+  border-top:0;
+}
+
+/* Frame - Animation */
+
+.frame{
+  position: relative;
+}
+
+.frame::before, .frame::after{
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+.frame:hover::before, 
+.frame:hover::after,
+.frame:active::before, 
+.frame:active::after, 
+.frame:focus::before,
+.frame:focus::after,
+.active::before,
+.active::after{
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--main-text-color);
+}
+
+.frame:hover::before,
+.frame:active::before, 
+.frame:focus::before,
+.active::before{
+  top: 0;
+  left: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.frame:hover::after,
+.frame:active::after, 
+.frame:focus::after,
+.active::after{
+  bottom: 0;
+  right: 0;
+  border-left: 0;
+  border-top:0;
+}
