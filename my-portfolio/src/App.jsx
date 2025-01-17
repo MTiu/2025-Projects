@@ -1,9 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import Home from "./components/Home"
-import Gallery from "./components/Gallery"
-import About from "./components/About"
+import Home from "./components/Home/Home"
+import Gallery from "./components/Gallery/Gallery"
+import About from "./components/About/About"
 import Header from './components/Header';
 function App() {
 

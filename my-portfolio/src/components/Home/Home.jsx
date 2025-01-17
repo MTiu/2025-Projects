@@ -1,7 +1,7 @@
 import React from 'react'
-import myImage from "../assets/images/me.jpg";
+import myImage from "../../assets/images/me.jpg";
 import { Container, Row, Col } from "react-bootstrap"
-import "../assets/styles/home.css"
+import styles from "./home.module.css"
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
               <p className='fs-4 text-center'>I have a passion in programming, anime, and games</p>
           </Col>
           <Col className="d-flex justify-content-center">
-              <img className="main-image" src={myImage} alt="Image of Matthew" />
+              <img className={`${styles["main-image"]}`} src={myImage} alt="Image of Matthew" />
           </Col>
           <Col className="d-flex justify-content-center">
               <h1 className="px-5 py-3 fw-bold text-center">Hi! I'm <span className='text-info'>Matt</span>. Nice to meet you!</h1>
