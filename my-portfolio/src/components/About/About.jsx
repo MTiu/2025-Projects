@@ -5,7 +5,7 @@ import { carouselItems, animeCards, mangaCards, gameCards, techStack } from "./a
 
 function About() {
     return (
-        <Container fluid>
+        <Container fluid style={{marginBottom:"7%"}}>
             <Row className="mt-5 align-items-center flex-column gap-5">
                 <Col className="d-flex flex-column align-items-center gap-5">
                     <h1 className="fs-1 text-info fw-bold text-center ">
