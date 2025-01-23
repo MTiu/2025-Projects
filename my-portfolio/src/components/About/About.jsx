@@ -13,10 +13,10 @@ function About() {
                         Throughout my career I experienced challenges and tackled them
                         and those made me the programmer that I am today and expanded my tech stack
                     </h1>
-                    <Container fluid className="border border-info rounded">
-                        <Row className="m-5 align-items-center gap-4 p-5 justify-content-center">
+                    <Container fluid className="border border-info rounded text-center">
+                        <Row className="m-5 gap-4 align-items-center justify-content-center">
                             {techStack.map((item,idx)=>(
-                                <Col className="mb-4" sm="4" md="3" lg="2" xxl="1" key={idx}><img src={item.image} alt={"Image of " + item.name} /></Col>
+                                <Col className="mb-4 d-flex flex-column align-items-center" xs="3" md="2" key={idx}><img style={{maxWidth:"80px"}} src={item.image} alt={"Image of " + item.name} /> <p>{item.name}</p></Col>
                             ))}
                         </Row>
                     </Container>

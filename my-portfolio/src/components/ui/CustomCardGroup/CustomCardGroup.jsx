@@ -7,7 +7,9 @@ export default function CustomCardGroup( { cardArray, topic } ) {
 return (
 <div>
     <Col className="mb-5 d-flex flex-column align-items-center gap-5">
-        <h1 className="mt-5 fs-2 fw-bold">{topic} that I like</h1>
+        <FadeIn>
+            <h1 className="mt-5 fs-2 fw-bold text-center">{topic} that I like</h1>
+        </FadeIn>
         {
             cardArray.map((item,idx) => (
                 <FadeIn>
