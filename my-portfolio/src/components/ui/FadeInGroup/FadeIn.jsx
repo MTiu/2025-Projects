@@ -1,3 +1,5 @@
+// Fade In UI React parent component for handling fade in animations on scroll
+
 import React, { useState, useEffect, useRef } from 'react'
 import styles from "./fadeIn.module.css" 
 

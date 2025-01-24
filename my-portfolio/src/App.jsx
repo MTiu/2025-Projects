@@ -1,9 +1,10 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Home from "./components/Home/Home"
-import Gallery from "./components/Gallery/Gallery"
+import Projects from "./components/Projects/Projects"
 import About from "./components/About/About"
 import Header from './components/Header';
+
 function App() {
 
   return (
@@ -13,7 +14,7 @@ function App() {
           <Routes>
               <Route exact path="/" element={<Home />}></Route>
               <Route exact path="/about" element={<About />}></Route>
-              <Route exact path="/gallery" element={<Gallery />}></Route>
+              <Route exact path="/projects" element={<Projects />}></Route>
           </Routes>
       </Router>
     </>
