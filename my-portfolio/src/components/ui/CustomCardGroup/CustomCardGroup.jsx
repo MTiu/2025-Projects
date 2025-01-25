@@ -8,7 +8,7 @@ return (
 <div>
     <Col className="mb-5 d-flex flex-column align-items-center gap-5">
         <FadeIn>
-            <h1 className="mt-5 fs-2 fw-bold text-center">{topic} that I like</h1>
+            <h1 className="mt-5 fs-1 text-info fw-bold text-center">{topic} that I like</h1>
         </FadeIn>
         {
             cardArray.map((item,idx) => (

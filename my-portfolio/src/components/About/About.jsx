@@ -9,7 +9,7 @@ function About() {
         <Container className="global-fade-in" fluid style={{marginBottom:"7%"}}>
             <Row className="mt-5 align-items-center flex-column gap-5">
                 <Col className="d-flex flex-column align-items-center gap-5">
-                    <h1 className="fs-1 text-info fw-bold text-center ">
+                    <h1 className="fs-1 fw-bold text-center w-75">
                         Throughout my career I experienced challenges and tackled them
                         and those made me the programmer that I am today and expanded my tech stack
                     </h1>
@@ -22,8 +22,8 @@ function About() {
                     </Container>
                 </Col>
                 <Col style={{marginTop:"7%"}} className="d-flex flex-column align-items-center gap-5">
-                    <h1 className="fs-1 text-info fw-bold text-center ">
-                        My love for anime, games, and programming fuels my
+                    <h1 className="fs-2 w-75 fw-bold text-center ">
+                        My love for <span className="text-info">anime, games, and programming</span> fuels my
                         creativity, problem-solving in development, and approach
                         to life's challenges.
                     </h1>

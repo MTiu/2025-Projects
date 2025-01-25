@@ -20,8 +20,8 @@ export default function Home() {
           <Col className="d-flex justify-content-center w-75">
               <p className="fs-4 text-center framed p-5">
                 During the COVID days, I recognized the need to improve my skills and confidence.
-                Attending the Village 88 Philippines Bootcamp helped me take a big step forward,
-                completing over 320 assignments and strengthening my web development abilities.
+                Attending the <span className='text-info'>Village 88 Philippines Bootcamp</span> helped me take a big step forward,
+                completing over <span className="text-info">320 assignments</span> and strengthening my web development abilities.
                 Inspired by my passion for games and anime, I continue to sharpen my creativity and problem-solving skills
                 while striving for growth.
               </p>
