@@ -6,7 +6,7 @@ import FadeIn from "../ui/FadeInGroup/FadeIn";
 
 function About() {
     return (
-        <Container fluid style={{marginBottom:"7%"}}>
+        <Container className="global-fade-in" fluid style={{marginBottom:"7%"}}>
             <Row className="mt-5 align-items-center flex-column gap-5">
                 <Col className="d-flex flex-column align-items-center gap-5">
                     <h1 className="fs-1 text-info fw-bold text-center ">
@@ -39,7 +39,7 @@ function About() {
                                         <Carousel.Caption>
                                             <h1>Image of {item.name}</h1>
                                             <a
-                                                className="text-decoration-underline"
+                                                className="custom-link text-decoration-underline"
                                                 href={item.href}
                                             >
                                                 {item.name} Image Link

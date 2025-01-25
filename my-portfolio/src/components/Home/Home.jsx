@@ -5,7 +5,7 @@ import styles from "./home.module.css"
 
 export default function Home() {
   return (
-    <Container fluid>
+    <Container className='global-fade-in' fluid>
       <Row className="align-items-center flex-column gap-2">
           <Col className="d-flex flex-column justify-content-center align-items-center">
               <h1 className="text-info fs-1 px-5 py-3 fw-bold text-center">Full Stack Web Developer</h1>

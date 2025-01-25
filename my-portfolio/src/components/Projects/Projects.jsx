@@ -1,16 +1,21 @@
 import React from 'react'
 import ProjectCard from '../ui/ProjectCard/ProjectCard'
-import { Container } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import projectArr from './projectsData'
 
 export default function Projects() {
   return (
-    <Container>
-      {
-        projectArr.map((item,idx)=>(
-          <ProjectCard project={item} key={idx}></ProjectCard>
-        ))
-      }
+    <Container className="mb-5" fluid>
+      <h1 className='global-fade-in text-center mb-5'>List of <span className='text-info fw-bold'>Projects</span> that I'm proud of</h1>
+      <Row className='justify-content-center gap-4'>
+          {
+            projectArr.map((item,idx)=>(
+              <Col xs="12" sm="5" xl="3" key={idx}>
+                <ProjectCard project={item} key={idx}></ProjectCard>
+              </Col>
+            ))
+          }
+      </Row>
     </Container>
   )
 }

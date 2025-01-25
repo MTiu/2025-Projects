@@ -12,7 +12,7 @@ return (
         </FadeIn>
         {
             cardArray.map((item,idx) => (
-                <FadeIn>
+                <FadeIn key={idx}>
                     <Card className={`${styles["custom-card"]} d-flex flex-row border-info`} key={idx} data-bs-theme="dark">
                         <Card.Img src={item.image} className={`${styles["custom-card-image"]}`} ></Card.Img>
                         <Card.Body className="p-4 fw-bold text-info fs-3 d-flex align-items-center">{item.name}</Card.Body>
