@@ -1,4 +1,4 @@
-import Fallout from "../../assets/images/fallout.jpg";
+import DOS2 from "../../assets/images/dos2.webp";
 import Lycoris from "../../assets/images/lycoris.webp";
 import Wuwa from "../../assets/images/wuwa.jpg";
 
@@ -30,9 +30,9 @@ export const carouselItems = [
         image: Lycoris,
     },
     {
-        name: "Fallout",
-        href: "https://getwallpapers.com/image/download/eyJpdiI6IjkxOTVEWUl6bXRKUW9xMWI3RVRDWWc9PSIsInZhbHVlIjoibERKdnhZZW5tcktrYXFcLys3M25qWWc9PSIsIm1hYyI6IjQ5NzEwMGE3OWNmOWViZTBiZjU0NDExZTk5MzI2NmRlNTkwZWQwNzE4OTEwNTEyNDM5M2QzZDRiYWQyOWJmZWEifQ==",
-        image: Fallout,
+        name: "Divinity Original Sin 2",
+        href: "https://image.api.playstation.com/vulcan/ap/rnd/202009/3013/SuaUMuPw8nqJu3TJncPLsog9.jpg",
+        image: DOS2,
     },
 ];
 
@@ -46,8 +46,8 @@ export const animeCards = [
         image: "https://th.bing.com/th/id/OIP.oh9RfharLX_VGHx651p_QgHaLH?rs=1&pid=ImgDetMain",
     },
     {
-        name: "Bofuri",
-        image: "https://www.animeclick.it/immagini/anime/Itai_no_wa_Iya_nano_de_Bougyoryoku_ni_Kyokufuri_Shitai_to_Omoimasu/cover/Itai_no_wa_Iya_nano_de_Bougyoryoku_ni_Kyokufuri_Shitai_to_Omoimasu-cover.jpg",
+        name: "Ave Mujica",
+        image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169295-WxoGTeMbje4T.jpg",
     },
 ];
 
@@ -70,8 +70,8 @@ export const mangaCards = [
 
 export const gameCards = [
     {
-        name: "Wuthering Waves",
-        image: "https://gamebrott.com/wp-content/uploads/2024/05/Build-Rover-Spectro-Wuthering-Waves-Terbaik-1-1024x576.webp",
+        name: "Heaven Burns Red",
+        image: "https://img.youtube.com/vi/CUuv6OErMUc/maxresdefault.jpg",
     },
     {
         name: "Fallout 4",
