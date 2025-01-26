@@ -18,7 +18,7 @@ export default function Home() {
               <h1 className="px-5 py-3 fw-bold text-center">Hi! I'm <span className='text-info'>Matt</span>. Nice to meet you!</h1>
           </Col>
           <Col className="d-flex justify-content-center w-75">
-              <p className="fs-4 text-center framed p-5">
+              <p className="fs-4 text-center framed p-3">
                 During the COVID days, I recognized the need to improve my skills and confidence.
                 Attending the <span className='text-info'>Village 88 Philippines Bootcamp</span> helped me take a big step forward,
                 completing over <span className="text-info">320 assignments</span> and strengthening my web development abilities.
