@@ -10,8 +10,8 @@ function About() {
             <Row className="mt-5 align-items-center flex-column gap-5">
                 <Col className="d-flex flex-column align-items-center gap-5">
                     <h1 className="fs-1 fw-bold text-center w-75">
-                        Throughout my career I experienced challenges and tackled them
-                        and those made me the programmer that I am today and expanded my tech stack
+                        Throughout my career, I've tackled various challenges that have helped me grow as a programmer, 
+                        expand my <span className="text-info">Tech Stack</span>, and realize the importance of continuous learning.
                     </h1>
                     <Container fluid className="border border-info rounded text-center">
                         <Row className="m-5 gap-4 align-items-center justify-content-center">

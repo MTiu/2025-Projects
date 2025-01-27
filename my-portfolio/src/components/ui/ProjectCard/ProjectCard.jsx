@@ -9,7 +9,7 @@ export default function ProjectCard({project}) {
         <img className={styles["project-card-img"]} src={project.logo} alt="" />
         <div className={styles["pop-card"]}>
           <p className='text-center p-4'>{project.desc}</p>
-          <a className={`${styles["pop-card-a"]} ${project.theme === "dark" ? "dark-link" : "light-link" }`} href={project.link}>Youtube Vid</a>
+          <a className={`${styles["pop-card-a"]} ${project.theme === "dark" ? "dark-link" : "light-link" }`} href={project.link}>Video Demo</a>
         </div>
       </div>
     </FadeIn>
